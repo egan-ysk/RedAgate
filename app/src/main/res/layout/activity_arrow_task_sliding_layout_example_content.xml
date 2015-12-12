@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ronnywu.redagate.ui.sliding.ui.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/arrow_task_sliding_layout_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center"
+        android:text="下拉刷新"
+        android:textColor="@android:color/black" />
+
+</com.ronnywu.redagate.ui.sliding.ui.SlidingRelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_view_quit_app_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/dimen_thirty_two"
+        android:text="退出"
+        android:textColor="#808080"
+        android:textSize="@dimen/font_fourteen" />
+
+    <View
+        android:id="@+id/view_line_1"
+        android:background="#d7d7d7"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/text_view_quit_app_hint" />
+
+    <TextView
+        android:id="@+id/text_view_quit_app"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/view_line_1"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="退出登录"
+        android:textColor="#ef5350" />
+
+    <View
+        android:id="@+id/view_line_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_sixteen"
+        android:layout_below="@id/text_view_quit_app"
+        android:background="#fafafa" />
+
+    <TextView
+        android:id="@+id/text_view_quit_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/view_line_2"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="#404040" />
+
+
+</RelativeLayout>

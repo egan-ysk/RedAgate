@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ball_task_sliding_layout_foot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/foot_ball_task_sliding_layout_ball"
+        android:layout_width="95dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@anim/anim_top_loading" />
+
+    <TextView
+        android:id="@+id/foot_ball_task_sliding_layout_state"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        android:text="上拉加载" />
+
+</RelativeLayout>

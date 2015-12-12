@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    // 开启本地引用框架
+    // repositories { flatDir { dirs 'libs' } }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile files('libs/okhttp-2.5.0.jar')
+    compile files('libs/okhttp-urlconnection-2.5.0.jar')
+    compile files('libs/gson-2.4.jar')
+    compile files('libs/volley-library-1.0.19.jar')
+    compile files('libs/ormlite-android-4.48.jar')
+    compile files('libs/butterknife-7.0.1.jar')
+    compile files('libs/ormlite-core-4.48.jar')
+    compile files('libs/okio-1.6.0.jar')
+}

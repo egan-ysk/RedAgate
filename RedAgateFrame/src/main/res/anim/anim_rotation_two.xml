@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="200"
+    android:fillAfter="true"
+    android:fromDegrees="0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:repeatCount="0"
+    android:toDegrees="180">
+
+    <!-- 下拉刷新,上拉加载更多,箭头 [ 顺时针 ] 旋转动画. 角度 180 ° -->
+
+    <!-- atsl :Arrow Task Sliding Layout 控件的缩写 -->
+    <!-- clockwise rotation : 顺时针方向 -->
+    <!-- angle level : 角度等级,每一级表示90°  -->
+
+</rotate>
+

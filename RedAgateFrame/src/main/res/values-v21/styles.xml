@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="RedAgateAppTheme" parent="RedAgateTheme">
+        <item name="android:navigationBarColor">#1083db</item>
+    </style>
+
+</resources>

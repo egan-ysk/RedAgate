@@ -1,0 +1,35 @@
+<resources>
+
+
+    <!-- 通 -->
+    <dimen name="dimen_zero">0dp</dimen>
+    <dimen name="dimen_two">2dp</dimen>
+    <dimen name="dimen_four">4dp</dimen>
+    <dimen name="dimen_eight">8dp</dimen>
+    <dimen name="dimen_sixteen">16dp</dimen>
+    <dimen name="dimen_eighteen">18dp</dimen>
+    <dimen name="dimen_twenty_four">24dp</dimen>
+    <dimen name="dimen_thirty_two">32dp</dimen>
+    <dimen name="dimen_forty">40dp</dimen>
+    <dimen name="dimen_forty_eight">48dp</dimen>
+    <dimen name="dimen_fifty_six">56dp</dimen>
+    <dimen name="dimen_sixty_four">64dp</dimen>
+    <dimen name="dimen_seventy_two">72dp</dimen>
+    <dimen name="dimen_eighty_eight">88dp</dimen>
+    <dimen name="dimen_ninety_six">96dp</dimen>
+
+
+    <!-- 字  -->
+    <dimen name="font_twelve">12sp</dimen>
+    <dimen name="font_fourteen">14sp</dimen>
+    <dimen name="font_sixteen">16sp</dimen>
+    <dimen name="font_eighteen">18sp</dimen>
+    <dimen name="font_twenty">20sp</dimen>
+
+
+    <!-- 线 -->
+    <dimen name="line_zero_point_five">0.5dp</dimen>
+    <dimen name="line_one">1dp</dimen>
+
+
+</resources>

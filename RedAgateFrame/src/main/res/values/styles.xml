@@ -1,0 +1,126 @@
+<resources>
+    <!--#################### 基础样式 ####################-->
+    <!--#################### 基础样式 ####################-->
+    <!--#################### 基础样式 ####################-->
+
+    <!-- 空风格 -->
+    <style name="RedAgate">
+
+    </style>
+
+    <!-- 宽:包裹 高:包裹 -->
+    <style name="RedAgate.WrapWidth.WrapHeight" parent="RedAgate">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 宽:包裹 高:填充 -->
+    <style name="RedAgate.WrapWidth.MatchHeight" parent="RedAgate">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- 宽:填充 高:包裹 -->
+    <style name="RedAgate.MatchWidth.WrapHeight" parent="RedAgate">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 宽:填充 高:填充 -->
+    <style name="RedAgate.MatchWidth.MatchHeight" parent="RedAgate">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- 宽:包裹 高:标准 -->
+    <style name="RedAgate.WrapWidth.StandardHeight" parent="RedAgate">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+
+    <!-- 宽:填充 高:标准 -->
+    <style name="RedAgate.MatchWidth.StandardHeight" parent="RedAgate">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+
+    <!--#################### APP风格 ####################-->
+    <!--#################### APP风格 ####################-->
+    <!--#################### APP风格 ####################-->
+
+    <!-- 基本主题风格样式 -->
+    <style name="RedAgateTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">#1083db</item>
+        <item name="android:windowAnimationStyle">@style/RedAgate.Animation.Push</item>
+    </style>
+
+    <!-- 引用风格 -->
+    <style name="RedAgateAppTheme" parent="RedAgateTheme" />
+
+    <!-- 启动页面风格 -->
+    <style name="RedAgateAppStartTheme" parent="RedAgateAppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--#################### 对话框风格 ####################-->
+    <!--#################### 对话框风格 ####################-->
+    <!--#################### 对话框风格 ####################-->
+
+    <!-- 对话框样式 -->
+    <style name="RedAgate.Dialog" parent="RedAgateAppStartTheme">
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 窗口无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 窗口是否半透明——是（与第一条配合使用）-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 去除边框黑线 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 动画 -->
+        <item name="android:windowAnimationStyle">@style/RedAgate.Animation.Alpha</item>
+        <!-- 是否开启模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- 对话框样式 -->
+    <style name="RedAgate.Dialog.Bottom" parent="RedAgate.Dialog">
+        <!-- 动画 -->
+        <item name="android:windowAnimationStyle">@style/RedAgate.Animation.Bottom</item>
+    </style>
+
+    <!--#################### 动画样式 ####################-->
+    <!--#################### 动画样式 ####################-->
+    <!--#################### 动画样式 ####################-->
+
+    <!-- Activity 动画 淡入淡出 -->
+    <style name="RedAgate.Animation.Alpha" parent="@android:style/Animation.Dialog">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_alpha_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_alpha_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_alpha_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_alpha_out</item>
+    </style>
+
+    <!-- Activity 动画 左进右出 -->
+    <style name="RedAgate.Animation.Push" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_right_out</item>
+    </style>
+
+    <!-- Activity 动画 下进下出 -->
+    <style name="RedAgate.Animation.Bottom" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_bottom_in</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_bottom_out</item>
+    </style>
+
+</resources>

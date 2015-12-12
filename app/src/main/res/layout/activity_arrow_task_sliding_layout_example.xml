@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ronnywu.redagate.ui.sliding.arrow_task.ArrowTaskSlidingLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/arrow_task_sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/arrow_task_sliding_layout_head" />
+
+    <include layout="@layout/activity_arrow_task_sliding_layout_example_content" />
+
+    <include layout="@layout/arrow_task_sliding_layout_foot" />
+
+</com.ronnywu.redagate.ui.sliding.arrow_task.ArrowTaskSlidingLayout>

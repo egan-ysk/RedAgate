@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_damping_sliding_layout_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="start|center_vertical"
+        android:paddingEnd="0dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="0dp"
+        android:paddingStart="30dp"
+        android:text="1. Damping Sliding Layout Example"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_arrow_task_sliding_layout_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_damping_sliding_layout_example"
+        android:layout_centerHorizontal="true"
+        android:gravity="start|center_vertical"
+        android:paddingEnd="0dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="0dp"
+        android:paddingStart="30dp"
+        android:text="2. Arrow Task Sliding Layout Example"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_ball_task_sliding_layout_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_arrow_task_sliding_layout_example"
+        android:layout_centerHorizontal="true"
+        android:gravity="start|center_vertical"
+        android:paddingEnd="0dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="0dp"
+        android:paddingStart="30dp"
+        android:text="3. Ball Task Sliding Layout Example"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

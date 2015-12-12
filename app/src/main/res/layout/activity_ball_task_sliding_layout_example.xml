@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ronnywu.redagate.ui.sliding.ball_task.BallTaskSlidingLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ball_task_sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/ball_task_sliding_layout_head" />
+
+    <include layout="@layout/ball_task_sliding_layout_content" />
+
+    <include layout="@layout/ball_task_sliding_layout_foot" />
+
+</com.ronnywu.redagate.ui.sliding.ball_task.BallTaskSlidingLayout>

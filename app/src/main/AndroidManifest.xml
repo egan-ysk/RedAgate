@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ronnywu.redagate.example">
+
+    <application
+        android:name=".application.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/RedAgateAppTheme">
+
+        <!-- 启动页面 -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Sliding View Example Activity -->
+
+        <activity android:name=".sliding_view.SlidingViewExampleActivity" />
+
+        <!-- Damping Sliding Layout Example Activity -->
+
+        <activity android:name=".sliding_view.example.DampingSlidingLayoutExampleActivity" />
+
+        <!-- Arrow Task Sliding Layout Example -->
+
+        <activity android:name=".sliding_view.example.ArrowTaskSlidingLayoutExampleActivity" />
+
+        <activity android:name=".hint_view.HintViewExampleActviity" />
+
+        <activity android:name=".hint_view.example.RedAgateDialogExampleActivity" />
+
+        <activity android:name=".hint_view.example.RedAgateToastExampleActivity" />
+
+        <activity android:name=".sliding_view.example.BallTaskSlidingLayoutExampleActivity" />
+
+        <activity
+            android:name=".hint_view.example.QuitAppDialogActivity"
+            android:theme="@style/RedAgate.Dialog.Bottom" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="140dp"
+    android:layout_height="140dp"
+    android:background="@drawable/comm_radius_black_bg">
+
+
+    <TextView
+        android:id="@+id/detail_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@+id/iv_route"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        tools:text="正在加载" />
+
+    <TextView
+        android:id="@+id/tv_point"
+        android:layout_width="20dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/detail_tv"
+        android:layout_alignTop="@+id/detail_tv"
+        android:layout_toEndOf="@+id/detail_tv"
+        android:layout_toRightOf="@+id/detail_tv"
+        android:gravity="start|center"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        tools:text="..." />
+
+    <ImageView
+        android:id="@+id/iv_route"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/red_arrow_task_sliding_layout_doing" />
+</RelativeLayout>
